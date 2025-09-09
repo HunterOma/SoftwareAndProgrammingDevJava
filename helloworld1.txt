@@ -1,0 +1,11 @@
+public class Main {
+  public static void main(String[] args) {
+    byte age = 16;
+    String name = "Hunter";
+    System.out.println("Hello World");
+    System.out.println("I am");
+    System.out.println(name);
+    System.out.println("and I am");
+    System.out.println(age);
+  }
+}
