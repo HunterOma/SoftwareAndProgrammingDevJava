@@ -1,9 +1,12 @@
 class Cards {
-    Integer number;
+    String suite;
+    int value;
 
 
-    public Cards(){
-
+    public Cards(String suite int value);
+    {
+        this.suite = suite;
+        this.value = value;
     }
     public void number(String number) {
         System.out.println(number);
@@ -12,26 +15,26 @@ class Cards {
 }   
  class Spades extends Cards {
 
-    public Spades(){
-        super();
+    public Spades(int value) {
+        super(suite: "Spades", value);
     }
   
 }
     class Hearts extends Cards {
-          public Hearts(){
-        super();
+        public Hearts(int value) {
+            super(suite: "Hearts", value);
+    }
     }
 
-    }
     class Clubs extends Cards {
-          public Clubs(){
-        super();
+        public Clubs(int value) {
+            super(suite: "Clubs", value);
+    }
     }
   
-    }
     class Diamonds extends Cards {
-          public Diamonds(){
-        super();
+        public Diamonds(int value) {
+            super(suite: "Diamonds", value);
     }
  
     }
